@@ -89,7 +89,7 @@ export class AppComponent {
     {
       start: subDays(startOfDay(new Date()), 1),
       end: addDays(new Date(), 1),
-      title: 'A 3 day event',
+      title: 'A 3 day item',
       color: { ...colors.red },
       actions: this.actions,
       allDay: true,
@@ -154,7 +154,7 @@ export class AppComponent {
     this.events = [
       ...this.events,
       {
-        title: 'New event',
+        title: 'New item',
         start: startOfDay(new Date()),
         end: endOfDay(new Date()),
         color: colors.red,
